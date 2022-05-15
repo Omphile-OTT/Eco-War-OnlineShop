@@ -5,6 +5,16 @@ VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eco-War.Core", "Eco-War.Core\Eco-War.Core.csproj", "{A57E0C04-174E-4895-82B7-C0311DD703A5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eco-War.Services", "Eco-War,Services\Eco-War.Services.csproj", "{9FEF1149-6AA8-48C1-BA5D-14109EBFC51D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eco-War.DataAccess", "Eco-War-DataAccess\Eco-War.DataAccess.csproj", "{AD0C7484-37E0-42BF-83B8-4ED4AE83FB4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eco-War-DataAccess.InMemory", "Eco-War-DataAccess.Inmemory\Eco-War-DataAccess.InMemory.csproj", "{D288C048-5D3B-4AAF-887A-410B0E0FC78E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eco-war.UI", "Eco-war.UI\Eco-war.UI.csproj", "{695366FE-3EEA-454B-A7A7-8DDF8B0BFBFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eco-war.UI.Tests", "Eco-war.UI.Tests\Eco-war.UI.Tests.csproj", "{1518694E-D7DB-4AA5-9447-1C39371D33BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +25,26 @@ Global
 		{A57E0C04-174E-4895-82B7-C0311DD703A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A57E0C04-174E-4895-82B7-C0311DD703A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A57E0C04-174E-4895-82B7-C0311DD703A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FEF1149-6AA8-48C1-BA5D-14109EBFC51D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FEF1149-6AA8-48C1-BA5D-14109EBFC51D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FEF1149-6AA8-48C1-BA5D-14109EBFC51D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FEF1149-6AA8-48C1-BA5D-14109EBFC51D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD0C7484-37E0-42BF-83B8-4ED4AE83FB4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD0C7484-37E0-42BF-83B8-4ED4AE83FB4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD0C7484-37E0-42BF-83B8-4ED4AE83FB4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD0C7484-37E0-42BF-83B8-4ED4AE83FB4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D288C048-5D3B-4AAF-887A-410B0E0FC78E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D288C048-5D3B-4AAF-887A-410B0E0FC78E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D288C048-5D3B-4AAF-887A-410B0E0FC78E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D288C048-5D3B-4AAF-887A-410B0E0FC78E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{695366FE-3EEA-454B-A7A7-8DDF8B0BFBFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{695366FE-3EEA-454B-A7A7-8DDF8B0BFBFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{695366FE-3EEA-454B-A7A7-8DDF8B0BFBFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{695366FE-3EEA-454B-A7A7-8DDF8B0BFBFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1518694E-D7DB-4AA5-9447-1C39371D33BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1518694E-D7DB-4AA5-9447-1C39371D33BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1518694E-D7DB-4AA5-9447-1C39371D33BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1518694E-D7DB-4AA5-9447-1C39371D33BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
